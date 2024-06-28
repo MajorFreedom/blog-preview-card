@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+
+}
+p {
+    margin: 0;
+    line-height: 150%;
+    
+}
+
+
+body {
+    font-family: 'Figtree';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    background-color: #F4D04E;
+}
+
+
+.blog-preview-card {
+    width: 384px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 8px 8px 0px black;
+    transition: all ease-out 0.2s;
+}
+
+.blog-preview-card-container {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.illustration {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.blog-preview-card-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.category-item {
+    padding: 4px 12px;
+    background-color: #F4D04E;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+.publish-date-item {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+    transition: all ease-out .2s;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray
+}
+
+.blog-preview-card-avatar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.blog-preview-card-avatar-container p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.blog-preview-card:hover {
+    box-shadow: 16px 16px 0px black;
+}
+
+
+.blog-preview-card:hover .title {
+    color: #F4D04E;
+}

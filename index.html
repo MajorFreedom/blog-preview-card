@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- <link rel="preconnect" href="./assets/fonts/Figtree-Italic-VariableFont_wght.ttf">
+  <link rel="preconnect" href="./assets/fonts/Figtree-VariableFont_wght.ttf"> -->
+  <!-- <link rel="preconnect" href="./assets/fonts/static/Figtree-ExtraBold.ttf">
+  <link rel="preconnect" href="./assets/fonts/static/Figtree-SemiBold.ttf"> -->
+
+  <link rel="stylesheet" href="./design/style.css">
   
   <title>Frontend Mentor | Blog preview card</title>
 
@@ -15,20 +22,33 @@
   </style>
 </head>
 <body>
+  <div class="blog-preview-card">
+    <div class="blog-preview-card-container">
+      <img src="./assets/images/illustration-article.svg" alt="illustration-article" class="illustration">
 
-  Learning
+      <div class="blog-preview-card-content-container">
+        <p class="category-item">Learning</p>
 
-  Published 21 Dec 2023
+        <p class="publish-date-item">Published 21 Dec 2023</p>
 
-  HTML & CSS foundations
+        <p class="title">HTML & CSS foundations</p>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+        <p class="description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
 
-  Greg Hooper
+      </div>
+
+      <div class="blog-preview-card-avatar-container">
+        <img width="32" height="32" src="./assets/images/image-avatar.webp" alt="author">
+        <p>Greg Hooper</p>
+      </div>
+
+    </div>
+  </div>
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Airengaren</a>.
   </div>
 </body>
 </html>
